@@ -1,11 +1,13 @@
 package com.ulan;
 
+import java.io.Serializable;
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
 @ManagedBean
 @RequestScoped
-public class User {
+public class User implements Serializable {
 	private String name="";
 	private String password;
 	
