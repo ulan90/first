@@ -1,10 +1,10 @@
 package com.ulan;
 
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.SessionScoped;
+import javax.faces.bean.RequestScoped;
 
 @ManagedBean
-@SessionScoped
+@RequestScoped
 public class User {
 	private String name="";
 	private String password;
